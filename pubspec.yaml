@@ -1,0 +1,22 @@
+name: emad_bacheca_backend
+description: Back-end REST della bacheca annunci di lavoro (EMAD).
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.13.5
+
+# Add regular dependencies here.
+dependencies:
+  crypto: ^3.0.8
+  http_parser: ^4.1.2
+  mime: ^2.1.0
+  path: ^1.9.1
+  shelf: ^1.4.3
+  shelf_router: ^1.1.5
+  uuid: ^4.6.0
+
+dev_dependencies:
+  http: ^1.6.0
+  lints: ^6.0.0
+  test: ^1.25.6
